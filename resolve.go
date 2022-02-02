@@ -1,3 +1,5 @@
+// original: https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/
+
 package main
 
 import (
@@ -8,6 +10,8 @@ import (
 
 	"github.com/miekg/dns"
 )
+
+// 13 DNS root nameservers https://www.iana.org/domains/root/servers
 
 func main() {
 	name := os.Args[1]
