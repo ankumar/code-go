@@ -1,4 +1,4 @@
-// Sample Program 1: Experimenting with https://replit.com/
+// Program 1:
 // original article and code: https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/
 
 package main
